@@ -1,0 +1,13 @@
+#file_base64 {
+    width: 640px;
+    height: 350px;
+}
+
+.img-list {
+    width: 50px;
+    height: 60px;
+}
+
+i {
+    cursor: pointer;
+}

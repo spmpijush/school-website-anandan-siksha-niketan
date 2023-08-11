@@ -1,0 +1,16 @@
+
+*.log
+
+
+/admin/config
+/admin/custom_libs
+/admin/frame_libs
+
+
+/website/config
+/website/frame_libraries
+
+
+
+# config/database.php
+*.DS_Store

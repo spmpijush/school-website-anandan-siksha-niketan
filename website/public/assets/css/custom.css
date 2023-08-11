@@ -1,0 +1,428 @@
+/* Variable create  */
+:root {
+    --footer-text-color: #b2b6bd;
+    --footer-body-color: #111132;
+    --bg-color1: #e0e0e0;
+    --white: #ffffff;
+}
+
+select:focus {
+    outline: 2px solid orange;
+    /* oranges! yey */
+}
+
+.information {
+    background-color: aliceblue;
+}
+
+.box_1 {
+    text-align: center;
+    border: 1px solid rgb(112, 105, 105);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.language_box {
+    display: flex;
+    border: 1px solid rgba(134, 131, 137, 0.877);
+    border-radius: 5px;
+}
+
+/* ################################# NAVBAR EDIT ############################ */
+#navbarSupportedContent a {
+    color: #57575f;
+    font-weight: bold;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 3px solid rgb(59, 45, 246);
+}
+
+#navbarSupportedContent a.active {
+    border-bottom: 3px solid rgb(59, 45, 246);
+}
+
+/* ############################## BODY HEADER ################################### */
+.boody_header {
+    background-color: var(--bg-color1);
+}
+
+.boody_header p {
+    margin-bottom: 0px !important;
+}
+
+.organization_social_media_icon {
+    display: flex;
+    justify-content: end;
+}
+
+/* ################################ Customize Carousel Section ########################### */
+.carousel-caption {
+    bottom: 15.25rem !important;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: #59217d !important;
+}
+
+.carousel-item img {
+    height: 600px !important;
+}
+
+
+/* ################################  ABOUT US SECTION ############################## */
+.title_box h5 {
+    color: red;
+    border-bottom: 2px dashed red;
+    display: inline-block;
+}
+
+.title_heading_box h1 {
+    font-size: 60px;
+    padding: 10px 0;
+}
+
+.heading_details p {
+    font-size: 18px;
+    padding: 8px 0s;
+}
+
+.counting_box_1 {
+    /* border: 1px solid rgb(112, 174, 235); */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--bg-color1);
+}
+
+/* ################################ WHY CHOOSE US? ######################### */
+.why_choose_main_box_section {
+    background-color: var(--bg-color1);
+}
+
+.choose_us_1st_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.choose_us_1st_logo i {
+    font-size: 35px;
+    padding: 35px 0;
+}
+
+/* ########################## NOTICE BOARD EDIT ########################### */
+.new_notice i {
+    /* color: rgb(255, 255, 255) !important; */
+    animation: new_notice 0.5s ease-in-out alternate infinite;
+}
+
+@keyframes new_notice {
+    from {
+        color: red;
+    }
+
+    to {
+        color: rgb(225, 255, 2);
+    }
+}
+
+.notice_board_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4343b5;
+    padding: 8px 10px;
+}
+
+
+
+.notice_board_content {
+    background-color: white;
+    height: 530px;
+    overflow-y: scroll;
+    border-radius: 0 0 8px 8px;
+}
+
+.notice_board_line {
+    height: auto;
+    border-left: 3px solid rgb(76, 122, 238);
+    margin-left: 25px;
+
+}
+
+.notice_board_header i {
+    font-size: 20px;
+    color: #eeeef5;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.notice_content:hover {
+    color: rgb(71, 107, 225);
+    cursor: pointer;
+}
+
+.notice_content_logo_date {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+.notice_content_logo_date i {
+    position: absolute;
+    left: -9.5px;
+    color: #4343b5;
+}
+
+.notice_content_logo_date div p {
+    margin-bottom: 0px !important;
+    font-weight: bold;
+}
+
+
+
+/* ################################# Meet Our Instructors ######################### */
+.instructors_box {
+    border: 1px solid rgb(182, 171, 171);
+    margin: 0 10px;
+}
+
+
+
+/* ################################# Student Feed Back Section ########################## */
+.testimonial_main_section {
+    background-color: var(--bg-color1);
+}
+
+.student_single_slider_box {
+    /* border: 1px solid rgb(187, 177, 177); */
+    background-color: white;
+    border-radius: 8px;
+}
+
+.student_single_slider_box i {
+    color: #4343b5;
+}
+
+/* ################################### NEED HELP ############################## */
+.need_help_main_box {
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+
+.send_a_message_box {
+    background-color: var(--bg-color1);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.need_help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color1);
+    border-radius: 8px;
+}
+
+.need_help i {
+    font-size: 35px;
+    padding: 20px;
+}
+
+/* ############################# FOOTER SECTION EDIT ############################### */
+.main_footer_section {
+    background-color: var(--footer-body-color);
+    padding: 30px;
+}
+
+.news_letter_button {
+    border-radius: 0 30px 30px 0 !important;
+}
+
+.inpute_box_edit_mobile .form-control {
+    border-radius: 30px 0 0 30px !important;
+}
+
+.footer_social_media_icon {
+    display: flex;
+    justify-content: start;
+}
+
+.footer_social_media_icon a {
+    color: var(--footer-text-color);
+}
+
+.developer_social_media_link a i {
+    color: white;
+}
+
+hr {
+    background-color: #ffffff;
+}
+
+.get_in_touch_description {
+    margin-bottom: 15px;
+}
+
+.get_in_touch_description i {
+    font-size: 20px;
+    color: var(--footer-text-color);
+}
+
+.get_in_touch_description p {
+    margin-bottom: 0px !important;
+    color: var(--footer-text-color);
+}
+
+.sub_title_discription p {
+    color: var(--footer-text-color);
+}
+
+.sub_footer p {
+    margin-bottom: 0px !important;
+    padding: 4px 0;
+}
+
+.sub_footer img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+
+.developer_social_media_link {
+    display: flex;
+    align-items: center;
+}
+
+.developer_social_media_link a {
+    text-decoration: none;
+    margin-bottom: 0px !important;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+
+
+
+
+/* ########################################################################
+############################# MEDIA QUERIES ############################
+######################################################################## */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carousel-item img {
+        height: 200px !important;
+    }
+
+    .title_box h5 {
+        font-size: 14px;
+    }
+
+    .title_heading_box h1 {
+        font-size: 30px;
+        padding: 8px 0;
+    }
+
+    .organization_social_media_icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .small_device_phone_no {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0;
+    }
+
+    .counting_box_1 {
+        border: 1px solid rgb(112, 174, 235);
+        padding: 10px;
+        border-radius: 8px;
+        margin: 10px 0;
+    }
+
+    .student_single_slider_box {
+        padding: 5px !important;
+        margin: 0 10px;
+    }
+
+    .student_name_desig h3 {
+        font-size: 16px !important;
+    }
+
+    .student_name_desig p {
+        font-size: 12px !important;
+    }
+
+    .need_help {
+        width: 50px;
+        /* height: 50px; */
+    }
+
+    .need_help i {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .need_help_details {
+        padding-left: 10px;
+    }
+
+    .need_help_details h3 {
+        font-size: 20px;
+    }
+
+    .main_footer_section {
+        padding: 10px;
+    }
+
+    .copyright_section_box {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .developer_details_mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .news_letter_button {
+        height: 40px !important;
+        width: 110px !important;
+        border-radius: 0 30px 30px 0 !important;
+    }
+
+    .inpute_box_edit_mobile .form-control {
+        border-radius: 30px 0 0 30px !important;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

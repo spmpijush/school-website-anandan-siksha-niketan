@@ -1,0 +1,17 @@
+.language_choose_btn {
+    display: flex;
+    justify-content: end;
+}
+
+/* slick slider custome edit  */
+.slick-slide {
+    height: auto !important;
+}
+
+.home_slider button {
+    display: none !important;
+}
+
+.student_single_slider button {
+    display: none !important;
+}

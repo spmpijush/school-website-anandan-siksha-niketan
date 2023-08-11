@@ -1,0 +1,88 @@
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+@media only screen and (min-width: 600px) {
+    
+    .carousel .carousel-item {
+        height: 500px;
+    }
+    .carousel-item img {
+        position: absolute;
+        object-fit:cover;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .card {
+        display: table;
+        width: 100%;
+        min-height: 250px;
+        height:100% !important;;
+        overflow: hidden;
+        border-radius: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .card {
+        display: table;
+        width: 100%;
+        min-height: 180px;
+        height:100% !important;
+        overflow: hidden;
+        border-radius: 0;
+    }
+}
+
+.tiles {
+    background: #064adddd;
+    color: #fff;
+    border-radius: 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    transition: transform .5s;
+}
+.tiles:hover {
+    transform: scale(1.2);
+}
+
+.doctor-tiles {
+    background: #00277c;
+}
+.doctor-tiles:hover {
+    background: #1743a3;
+    cursor: pointer;
+}
+.test-tiles {
+    background: #003097;
+}
+.test-tiles:hover {
+    background: #0744c7;
+    cursor: pointer;
+}
+.opd-tiles {
+    background: #0042d1;
+}
+.opd-tiles:hover {
+    background: #0a54f5;
+    cursor: pointer;
+}
+.whatsapp-tiles {
+    background: #268500;
+}
+.whatsapp-tiles:hover {
+    background: #2b9900;
+    cursor: pointer;
+}
+.tiles-image {
+    width: 50px;
+    height: 50px;
+}
+i.fa-phone-square-alt {
+    transform: scaleX(-1);
+}
